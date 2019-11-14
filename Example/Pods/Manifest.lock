@@ -1,0 +1,23 @@
+PODS:
+  - CTMediator (25)
+  - LoginServiceInterface (0.0.1):
+    - CTMediator
+
+DEPENDENCIES:
+  - LoginServiceInterface (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  LoginServiceInterface:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  LoginServiceInterface: 789d50291c8457aa3635d902efa62ac3dc9c383b
+
+PODFILE CHECKSUM: 6dc2f0376e5adb372ca675b575a638c437578e9e
+
+COCOAPODS: 1.8.3
