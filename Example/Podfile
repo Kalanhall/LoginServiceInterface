@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LoginServiceInterface_Example' do
+  pod 'LoginServiceInterface', :path => '../'
+
+  target 'LoginServiceInterface_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
