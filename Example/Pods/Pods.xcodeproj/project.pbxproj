@@ -7,46 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		011605B89F8DA88D37E561D3578A38B1 /* Pods-LoginServiceInterface_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84994965C17C591D2442C71D30D60219 /* Pods-LoginServiceInterface_Example-dummy.m */; };
-		0208861F51FC3A625478FEA686D47D0F /* Pods-LoginServiceInterface_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EF810F9026987817A67FB10BD99F67 /* Pods-LoginServiceInterface_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03B09D3542A13BD9B7E1C827142A6D9B /* LoginServiceInterface-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C0DF90647AE8E3DA6C28C6195BB6AE /* LoginServiceInterface-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B3B432B52730FC2D6052833A82B96A5 /* LoginServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8549A22DF499755DCD49CE7518EED020 /* LoginServiceInterface.swift */; };
-		1F2CC39344782ED1E5BF06D76A38577B /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */; };
-		3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		49EDCC023A7091A89F22E05755041943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		685B428DA7903CE09A77661071568C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3737532EEA823B7364EFB1FAB1E041C1 /* UIKit.framework */; };
-		6D403D2504A491F86024504F4904E560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */; };
+		134AF4382399D976FD63D9FE98AEECCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABEFFFB21F10330BFB8FF7BCDD0D88 /* Foundation.framework */; };
+		15FA44FF46F3C463E464E6B964EF9A1B /* KLServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AB5E9FD03C77641037EDED17D928B8 /* KLServer.m */; };
+		25F1BDA91522F15A063D849B430ED82C /* Pods-LoginServiceInterface_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84994965C17C591D2442C71D30D60219 /* Pods-LoginServiceInterface_Example-dummy.m */; };
+		2811EBCAEE35CC332071F9A4370B9574 /* LoginServiceInterface-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D380A8BE225401AECD69D0CFF442CBFF /* LoginServiceInterface-dummy.m */; };
+		2E36E98D270E5B73CCCDA62A9BEF6C25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABEFFFB21F10330BFB8FF7BCDD0D88 /* Foundation.framework */; };
+		38E6A99C0A7B6120BD305091ED695F62 /* LoginServiceInterface-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C0DF90647AE8E3DA6C28C6195BB6AE /* LoginServiceInterface-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4603EB7EC9A11EF5057FA536ECA3F68C /* Pods-LoginServiceInterface_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EF810F9026987817A67FB10BD99F67 /* Pods-LoginServiceInterface_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4728E89F54429CF7EB6719453443E535 /* KLServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C14536DD8243E0E017C5EEFBA4A56 /* KLServer-dummy.m */; };
+		5A3C3FCF2AD39CAA5748C74A520CBD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABEFFFB21F10330BFB8FF7BCDD0D88 /* Foundation.framework */; };
+		6D403D2504A491F86024504F4904E560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABEFFFB21F10330BFB8FF7BCDD0D88 /* Foundation.framework */; };
 		92702D80449341D7F8A8B1D8C0AE0C80 /* Pods-LoginServiceInterface_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E836AB6CBFBD78A4A439BE813DC08795 /* Pods-LoginServiceInterface_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97365A3723AC0B66D7E104EC314F23EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9A08BB69CFD3550765912BD4DAB9FF /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 844EB007D0882EB6D7D94F6E32F4B565 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E54EF568A2261014EAC246BE1DC4B704 /* LoginServiceInterface-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D380A8BE225401AECD69D0CFF442CBFF /* LoginServiceInterface-dummy.m */; };
-		E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ACD14CA0A8EE59A4E2891AB5D041CF /* CTMediator-dummy.m */; };
+		B1466400F08B8A8A6D67790050E77258 /* KLServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9123EBF750542D5D2D0F390262ABD1 /* KLServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0AE6BA51C8BA213015E8F7DEA440880 /* LoginServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8549A22DF499755DCD49CE7518EED020 /* LoginServiceInterface.swift */; };
+		C9DBFFF85E17389C26E8CBDC99D949D0 /* KLServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9F81CE1EC59253C31B02C3D1838901 /* KLServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E681643BD7D1E197FCCCE8CBCA15F236 /* KLServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6EEAE23479CEB5638D5887B3670FDF /* KLServer.framework */; };
 		EA01701D3FE0D239819423A8ABAA0B20 /* Pods-LoginServiceInterface_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F5C0E76DC9313E2506208539762F80 /* Pods-LoginServiceInterface_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C2D0607D1699CE0BA290AB16A37D46D /* PBXContainerItemProxy */ = {
+		01EDBBCCB716B69659ACC194B24B2DA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
+			remoteGlobalIDString = A1B5112902E98BCCB504BFFDF62450A3;
+			remoteInfo = KLServer;
 		};
-		6BEC46F2279D809AC1439C749E490D6A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
-		7DB9927B9026A7689BE928BD18C2A360 /* PBXContainerItemProxy */ = {
+		2C0F5AC470376E1B62E350562996B066 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 81F76AB78D0B902419975DFA287F2639;
 			remoteInfo = LoginServiceInterface;
+		};
+		2CE000CD6F82D36AF73B29C475D9B0A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B5112902E98BCCB504BFFDF62450A3;
+			remoteInfo = KLServer;
 		};
 		B0D42E7D056111D9A42B08A815978825 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -58,49 +57,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09C8DF24679500F816AF86DE0F016F33 /* KLServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KLServer-Info.plist"; sourceTree = "<group>"; };
+		11AB5E9FD03C77641037EDED17D928B8 /* KLServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLServer.m; path = KLServer/Classes/KLServer.m; sourceTree = "<group>"; };
 		15EF810F9026987817A67FB10BD99F67 /* Pods-LoginServiceInterface_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginServiceInterface_Example-umbrella.h"; sourceTree = "<group>"; };
-		17ACD14CA0A8EE59A4E2891AB5D041CF /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
-		1E1F9D3F5598638DAEC0652E749F33E2 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		18ABEFFFB21F10330BFB8FF7BCDD0D88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		25A65D00E9B5E04723B2810010784456 /* Pods-LoginServiceInterface_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginServiceInterface_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3737532EEA823B7364EFB1FAB1E041C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		37F5C0E76DC9313E2506208539762F80 /* Pods-LoginServiceInterface_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginServiceInterface_Tests-dummy.m"; sourceTree = "<group>"; };
-		3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		38BAC8469F7E6A72D9DF484ED406F72F /* KLServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KLServer.modulemap; sourceTree = "<group>"; };
 		4B33948F82C902514D80CE6689FA5251 /* Pods-LoginServiceInterface_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginServiceInterface_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4E9A08BB69CFD3550765912BD4DAB9FF /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
 		4FFE6E4A34021ADA952D6D8F2987C008 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		512D9E494EE7AD1160DADA9F896AC788 /* Pods-LoginServiceInterface_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginServiceInterface_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5448E416B4D0E4D82800E2AB98599898 /* Pods-LoginServiceInterface_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginServiceInterface_Tests-Info.plist"; sourceTree = "<group>"; };
 		54ABB94D0ED71BDFE38CE7AF46F8FE58 /* Pods_LoginServiceInterface_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoginServiceInterface_Example.framework; path = "Pods-LoginServiceInterface_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		567949F8CDDFB29EFF2C8215CA7F8FE5 /* Pods-LoginServiceInterface_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginServiceInterface_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A3CABCF71003277937409A474237D6 /* KLServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLServer-prefix.pch"; sourceTree = "<group>"; };
 		69D5D7815B56EA493863D90E7369E9CE /* Pods-LoginServiceInterface_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginServiceInterface_Example.modulemap"; sourceTree = "<group>"; };
 		6E4D6961FE3D0D229F7BC281FE8B192A /* Pods-LoginServiceInterface_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginServiceInterface_Example-Info.plist"; sourceTree = "<group>"; };
+		7B7C14536DD8243E0E017C5EEFBA4A56 /* KLServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLServer-dummy.m"; sourceTree = "<group>"; };
 		7C95D763161815A54DF9F192417EFB56 /* Pods-LoginServiceInterface_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginServiceInterface_Example-frameworks.sh"; sourceTree = "<group>"; };
-		844EB007D0882EB6D7D94F6E32F4B565 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		84994965C17C591D2442C71D30D60219 /* Pods-LoginServiceInterface_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginServiceInterface_Example-dummy.m"; sourceTree = "<group>"; };
 		8549A22DF499755DCD49CE7518EED020 /* LoginServiceInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginServiceInterface.swift; path = LoginServiceInterface/Classes/LoginServiceInterface.swift; sourceTree = "<group>"; };
 		9147D6534994F2DE6672D7781802013C /* LoginServiceInterface-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceInterface-prefix.pch"; sourceTree = "<group>"; };
+		9AEC12A32DF190F8DB41F830D4E76C18 /* KLServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLServer.xcconfig; sourceTree = "<group>"; };
+		9B9123EBF750542D5D2D0F390262ABD1 /* KLServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLServer-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		A0851ECEFE323A2115C372732A6E9B6F /* Pods_LoginServiceInterface_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoginServiceInterface_Tests.framework; path = "Pods-LoginServiceInterface_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1788CCD20A6F654800A9DCF5A040C1D /* Pods-LoginServiceInterface_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginServiceInterface_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A9F3F9E2BED95360DF27623E70B11E20 /* KLServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLServer.framework; path = KLServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E0B8C794B8EC10E5DD0E0F853062B6 /* LoginServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginServiceInterface.framework; path = LoginServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE21F9D7040C06B0C4734E4CCE03A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C23C00611252C9357DC48711D2198DAA /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
 		C4DD898BD893F7DEB7C7FE63847FCF91 /* LoginServiceInterface.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginServiceInterface.xcconfig; sourceTree = "<group>"; };
-		C5294C5DFDFEF87D9DC045D3275A9FEE /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
 		CBCC914376C146106A334AFE9F28CCD9 /* LoginServiceInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoginServiceInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CFC07458DF782C92935D9A104468EEB5 /* Pods-LoginServiceInterface_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginServiceInterface_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D153FBA9DC808C45F7754955A80C057C /* Pods-LoginServiceInterface_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginServiceInterface_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D380A8BE225401AECD69D0CFF442CBFF /* LoginServiceInterface-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginServiceInterface-dummy.m"; sourceTree = "<group>"; };
 		D3C0DF90647AE8E3DA6C28C6195BB6AE /* LoginServiceInterface-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceInterface-umbrella.h"; sourceTree = "<group>"; };
 		D73A05BA33FD8BBDE996066A2A507B50 /* Pods-LoginServiceInterface_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginServiceInterface_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA6EEAE23479CEB5638D5887B3670FDF /* KLServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E216187E5BE6B9584F172199CF7BF141 /* LoginServiceInterface.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginServiceInterface.modulemap; sourceTree = "<group>"; };
 		E836AB6CBFBD78A4A439BE813DC08795 /* Pods-LoginServiceInterface_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginServiceInterface_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EEA98ABC0402B76B76D0ED98C2F2DC81 /* LoginServiceInterface-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginServiceInterface-Info.plist"; sourceTree = "<group>"; };
 		F75F2FB4F4B16BF7116CCBBDF4BCB393 /* Pods-LoginServiceInterface_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginServiceInterface_Tests.modulemap"; sourceTree = "<group>"; };
-		FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FD9F81CE1EC59253C31B02C3D1838901 /* KLServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLServer.h; path = KLServer/Classes/KLServer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,63 +110,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FAE774B3367DFF488D1AAA9603DAB02 /* Frameworks */ = {
+		A1A50DF2413FCD18A41A9673349402DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97365A3723AC0B66D7E104EC314F23EC /* Foundation.framework in Frameworks */,
+				2E36E98D270E5B73CCCDA62A9BEF6C25 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB8812C56E791AE2DBCC0CF366FB86D5 /* Frameworks */ = {
+		D3519116C21DCFC32060C444E915C323 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F2CC39344782ED1E5BF06D76A38577B /* CTMediator.framework in Frameworks */,
-				49EDCC023A7091A89F22E05755041943 /* Foundation.framework in Frameworks */,
+				134AF4382399D976FD63D9FE98AEECCF /* Foundation.framework in Frameworks */,
+				E681643BD7D1E197FCCCE8CBCA15F236 /* KLServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F869CEC17949B9D77FB2EC29F0BAAB2C /* Frameworks */ = {
+		FA900753201267495FFC5CA00C52BA36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */,
-				685B428DA7903CE09A77661071568C61 /* UIKit.framework in Frameworks */,
+				5A3C3FCF2AD39CAA5748C74A520CBD6F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		063BF7AEE97A9BC416F3E2A92977507A /* Pods */ = {
+		2628D191F55595F8E6AF9FE4F22A7EE8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2E2592B0A77121680C66567F26904FED /* CTMediator */,
+				944542286818DCC58AF288793D2E56FD /* KLServer */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		199F8FB032C2382FE34F75523C7BA05B /* Products */ = {
+		364E79C2DB1FA9493F6428B915E1DA9C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */,
-				B7E0B8C794B8EC10E5DD0E0F853062B6 /* LoginServiceInterface.framework */,
-				54ABB94D0ED71BDFE38CE7AF46F8FE58 /* Pods_LoginServiceInterface_Example.framework */,
-				A0851ECEFE323A2115C372732A6E9B6F /* Pods_LoginServiceInterface_Tests.framework */,
+				18ABEFFFB21F10330BFB8FF7BCDD0D88 /* Foundation.framework */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2E2592B0A77121680C66567F26904FED /* CTMediator */ = {
-			isa = PBXGroup;
-			children = (
-				844EB007D0882EB6D7D94F6E32F4B565 /* CTMediator.h */,
-				9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */,
-				E14D928A63EDE2B333128F78CA33B7DC /* Support Files */,
-			);
-			name = CTMediator;
-			path = CTMediator;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		36BCE196FAEEB80F9EE4A194614620A7 /* Pods-LoginServiceInterface_Tests */ = {
@@ -185,15 +168,6 @@
 			);
 			name = "Pods-LoginServiceInterface_Tests";
 			path = "Target Support Files/Pods-LoginServiceInterface_Tests";
-			sourceTree = "<group>";
-		};
-		4BD002FB4B633CBBF7421E7F7D4538EA /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */,
-				3737532EEA823B7364EFB1FAB1E041C1 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7EF74C2D3CC611C2212DA8D0F958ED4F /* Targets Support Files */ = {
@@ -213,13 +187,15 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		936D8B2D1396787B21F2145EFEFE16F4 /* Frameworks */ = {
+		944542286818DCC58AF288793D2E56FD /* KLServer */ = {
 			isa = PBXGroup;
 			children = (
-				B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */,
-				4BD002FB4B633CBBF7421E7F7D4538EA /* iOS */,
+				FD9F81CE1EC59253C31B02C3D1838901 /* KLServer.h */,
+				11AB5E9FD03C77641037EDED17D928B8 /* KLServer.m */,
+				C6E613E33D51C215D7CB609A03474C0D /* Support Files */,
 			);
-			name = Frameworks;
+			name = KLServer;
+			path = KLServer;
 			sourceTree = "<group>";
 		};
 		B3A2DD3749BB25A9E1EFBA7D359C34E8 /* Pods-LoginServiceInterface_Example */ = {
@@ -250,6 +226,20 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		C6E613E33D51C215D7CB609A03474C0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38BAC8469F7E6A72D9DF484ED406F72F /* KLServer.modulemap */,
+				9AEC12A32DF190F8DB41F830D4E76C18 /* KLServer.xcconfig */,
+				7B7C14536DD8243E0E017C5EEFBA4A56 /* KLServer-dummy.m */,
+				09C8DF24679500F816AF86DE0F016F33 /* KLServer-Info.plist */,
+				63A3CABCF71003277937409A474237D6 /* KLServer-prefix.pch */,
+				9B9123EBF750542D5D2D0F390262ABD1 /* KLServer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KLServer";
+			sourceTree = "<group>";
+		};
 		C7E4C7386280354478A94DE001D8AE74 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,25 +259,31 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				9273D355CB46E92FE9A1D6BA8E9B0719 /* Development Pods */,
-				936D8B2D1396787B21F2145EFEFE16F4 /* Frameworks */,
-				063BF7AEE97A9BC416F3E2A92977507A /* Pods */,
-				199F8FB032C2382FE34F75523C7BA05B /* Products */,
+				E68A708AA3B861C7943CFD101EE78522 /* Frameworks */,
+				2628D191F55595F8E6AF9FE4F22A7EE8 /* Pods */,
+				D99B2F7E8AB81AC3D23EB9B3C7507363 /* Products */,
 				7EF74C2D3CC611C2212DA8D0F958ED4F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E14D928A63EDE2B333128F78CA33B7DC /* Support Files */ = {
+		D99B2F7E8AB81AC3D23EB9B3C7507363 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C23C00611252C9357DC48711D2198DAA /* CTMediator.modulemap */,
-				3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */,
-				17ACD14CA0A8EE59A4E2891AB5D041CF /* CTMediator-dummy.m */,
-				C5294C5DFDFEF87D9DC045D3275A9FEE /* CTMediator-Info.plist */,
-				1E1F9D3F5598638DAEC0652E749F33E2 /* CTMediator-prefix.pch */,
-				4E9A08BB69CFD3550765912BD4DAB9FF /* CTMediator-umbrella.h */,
+				A9F3F9E2BED95360DF27623E70B11E20 /* KLServer.framework */,
+				B7E0B8C794B8EC10E5DD0E0F853062B6 /* LoginServiceInterface.framework */,
+				54ABB94D0ED71BDFE38CE7AF46F8FE58 /* Pods_LoginServiceInterface_Example.framework */,
+				A0851ECEFE323A2115C372732A6E9B6F /* Pods_LoginServiceInterface_Tests.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CTMediator";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E68A708AA3B861C7943CFD101EE78522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6EEAE23479CEB5638D5887B3670FDF /* KLServer.framework */,
+				364E79C2DB1FA9493F6428B915E1DA9C /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E730493A0D67062259CEA57E3399E85A /* Pod */ = {
@@ -303,28 +299,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		60DF3B252E3FD21D667F274BDB81E3CA /* Headers */ = {
+		5F626D39D57AD519A252EB374FB306FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */,
-				D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */,
+				38E6A99C0A7B6120BD305091ED695F62 /* LoginServiceInterface-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7107F1C77AAC52E9944007B0FFE1EC31 /* Headers */ = {
+		91AC6A464D68C33711966AC575801755 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B09D3542A13BD9B7E1C827142A6D9B /* LoginServiceInterface-umbrella.h in Headers */,
+				B1466400F08B8A8A6D67790050E77258 /* KLServer-umbrella.h in Headers */,
+				C9DBFFF85E17389C26E8CBDC99D949D0 /* KLServer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		735AABC24BAB6221FE00ADED854C268C /* Headers */ = {
+		CCDBB7C23DD47EA29F7C0C6C2B014DAC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0208861F51FC3A625478FEA686D47D0F /* Pods-LoginServiceInterface_Example-umbrella.h in Headers */,
+				4603EB7EC9A11EF5057FA536ECA3F68C /* Pods-LoginServiceInterface_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,57 +354,57 @@
 			productReference = A0851ECEFE323A2115C372732A6E9B6F /* Pods_LoginServiceInterface_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3369B102FC665E0387F7D83687AA5301 /* Build configuration list for PBXNativeTarget "CTMediator" */;
-			buildPhases = (
-				60DF3B252E3FD21D667F274BDB81E3CA /* Headers */,
-				6743F40045C87906B0BE0456BFE8CEA0 /* Sources */,
-				F869CEC17949B9D77FB2EC29F0BAAB2C /* Frameworks */,
-				400F9571C43C05D59C6D163D02CBC274 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CTMediator;
-			productName = CTMediator;
-			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		81F76AB78D0B902419975DFA287F2639 /* LoginServiceInterface */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB3D447AB78A6E958EFB633447E276A3 /* Build configuration list for PBXNativeTarget "LoginServiceInterface" */;
+			buildConfigurationList = 3360B32B068EDCA8ADD70C9CF41F86BC /* Build configuration list for PBXNativeTarget "LoginServiceInterface" */;
 			buildPhases = (
-				7107F1C77AAC52E9944007B0FFE1EC31 /* Headers */,
-				CCE4B4310F7DCB8C260B3C483C53134D /* Sources */,
-				BB8812C56E791AE2DBCC0CF366FB86D5 /* Frameworks */,
-				87688C20149556D03992588B6F5CA5BE /* Resources */,
+				5F626D39D57AD519A252EB374FB306FD /* Headers */,
+				15437DAA81D674AC07069FE4594C0807 /* Sources */,
+				D3519116C21DCFC32060C444E915C323 /* Frameworks */,
+				F1C5837C054CDBA0801F1FCB6E30EB38 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9E242E19E06A5ED2ECD2C22E2BD6ED38 /* PBXTargetDependency */,
+				950AD01E6903285F7FB2534A5FE2CA57 /* PBXTargetDependency */,
 			);
 			name = LoginServiceInterface;
 			productName = LoginServiceInterface;
 			productReference = B7E0B8C794B8EC10E5DD0E0F853062B6 /* LoginServiceInterface.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BF8D67691C48261702E1857574B4D8DE /* Pods-LoginServiceInterface_Example */ = {
+		A1B5112902E98BCCB504BFFDF62450A3 /* KLServer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 571E86649C161D5116D132AF6609F002 /* Build configuration list for PBXNativeTarget "Pods-LoginServiceInterface_Example" */;
+			buildConfigurationList = B5E07C9E292BBF173FEF4D59B1704CE8 /* Build configuration list for PBXNativeTarget "KLServer" */;
 			buildPhases = (
-				735AABC24BAB6221FE00ADED854C268C /* Headers */,
-				330C613F426461A6272146E86E0EFC6E /* Sources */,
-				9FAE774B3367DFF488D1AAA9603DAB02 /* Frameworks */,
-				0E301896FA698FECEE7C04EB55BEF3BC /* Resources */,
+				91AC6A464D68C33711966AC575801755 /* Headers */,
+				22FAFC87B29EE95675B1FFB684F1685B /* Sources */,
+				FA900753201267495FFC5CA00C52BA36 /* Frameworks */,
+				808163FE53FC22269DA969507555B2CE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				81A9C39A8F60EDBCEBC09000F04F6FF2 /* PBXTargetDependency */,
-				DA29E6F816EE76C212083F7EA580BD37 /* PBXTargetDependency */,
+			);
+			name = KLServer;
+			productName = KLServer;
+			productReference = A9F3F9E2BED95360DF27623E70B11E20 /* KLServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF8D67691C48261702E1857574B4D8DE /* Pods-LoginServiceInterface_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B405E5F292FA6E19AE6BEFD8C6BBAD2 /* Build configuration list for PBXNativeTarget "Pods-LoginServiceInterface_Example" */;
+			buildPhases = (
+				CCDBB7C23DD47EA29F7C0C6C2B014DAC /* Headers */,
+				DFB632362BC6CD7F3B349D67E6651794 /* Sources */,
+				A1A50DF2413FCD18A41A9673349402DE /* Frameworks */,
+				61F3266099A947297B7A07B819C4763C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B551C23255432455CC996E0B17A78BA /* PBXTargetDependency */,
+				392AFB9EB18BF2203101A7A39D31BC3E /* PBXTargetDependency */,
 			);
 			name = "Pods-LoginServiceInterface_Example";
 			productName = "Pods-LoginServiceInterface_Example";
@@ -430,13 +426,14 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 199F8FB032C2382FE34F75523C7BA05B /* Products */;
+			productRefGroup = D99B2F7E8AB81AC3D23EB9B3C7507363 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
+				A1B5112902E98BCCB504BFFDF62450A3 /* KLServer */,
 				81F76AB78D0B902419975DFA287F2639 /* LoginServiceInterface */,
 				BF8D67691C48261702E1857574B4D8DE /* Pods-LoginServiceInterface_Example */,
 				1796322840419E7C99B6CEE99E6EF556 /* Pods-LoginServiceInterface_Tests */,
@@ -445,21 +442,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0E301896FA698FECEE7C04EB55BEF3BC /* Resources */ = {
+		61F3266099A947297B7A07B819C4763C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		400F9571C43C05D59C6D163D02CBC274 /* Resources */ = {
+		808163FE53FC22269DA969507555B2CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87688C20149556D03992588B6F5CA5BE /* Resources */ = {
+		F1C5837C054CDBA0801F1FCB6E30EB38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -476,11 +473,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		330C613F426461A6272146E86E0EFC6E /* Sources */ = {
+		15437DAA81D674AC07069FE4594C0807 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				011605B89F8DA88D37E561D3578A38B1 /* Pods-LoginServiceInterface_Example-dummy.m in Sources */,
+				2811EBCAEE35CC332071F9A4370B9574 /* LoginServiceInterface-dummy.m in Sources */,
+				C0AE6BA51C8BA213015E8F7DEA440880 /* LoginServiceInterface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FAFC87B29EE95675B1FFB684F1685B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4728E89F54429CF7EB6719453443E535 /* KLServer-dummy.m in Sources */,
+				15FA44FF46F3C463E464E6B964EF9A1B /* KLServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,86 +499,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6743F40045C87906B0BE0456BFE8CEA0 /* Sources */ = {
+		DFB632362BC6CD7F3B349D67E6651794 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */,
-				7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCE4B4310F7DCB8C260B3C483C53134D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E54EF568A2261014EAC246BE1DC4B704 /* LoginServiceInterface-dummy.m in Sources */,
-				1B3B432B52730FC2D6052833A82B96A5 /* LoginServiceInterface.swift in Sources */,
+				25F1BDA91522F15A063D849B430ED82C /* Pods-LoginServiceInterface_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		392AFB9EB18BF2203101A7A39D31BC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LoginServiceInterface;
+			target = 81F76AB78D0B902419975DFA287F2639 /* LoginServiceInterface */;
+			targetProxy = 2C0F5AC470376E1B62E350562996B066 /* PBXContainerItemProxy */;
+		};
 		4041BBF216E493E1E7F83386B2C2A3B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LoginServiceInterface_Example";
 			target = BF8D67691C48261702E1857574B4D8DE /* Pods-LoginServiceInterface_Example */;
 			targetProxy = B0D42E7D056111D9A42B08A815978825 /* PBXContainerItemProxy */;
 		};
-		81A9C39A8F60EDBCEBC09000F04F6FF2 /* PBXTargetDependency */ = {
+		6B551C23255432455CC996E0B17A78BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 6BEC46F2279D809AC1439C749E490D6A /* PBXContainerItemProxy */;
+			name = KLServer;
+			target = A1B5112902E98BCCB504BFFDF62450A3 /* KLServer */;
+			targetProxy = 2CE000CD6F82D36AF73B29C475D9B0A6 /* PBXContainerItemProxy */;
 		};
-		9E242E19E06A5ED2ECD2C22E2BD6ED38 /* PBXTargetDependency */ = {
+		950AD01E6903285F7FB2534A5FE2CA57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 5C2D0607D1699CE0BA290AB16A37D46D /* PBXContainerItemProxy */;
-		};
-		DA29E6F816EE76C212083F7EA580BD37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LoginServiceInterface;
-			target = 81F76AB78D0B902419975DFA287F2639 /* LoginServiceInterface */;
-			targetProxy = 7DB9927B9026A7689BE928BD18C2A360 /* PBXContainerItemProxy */;
+			name = KLServer;
+			target = A1B5112902E98BCCB504BFFDF62450A3 /* KLServer */;
+			targetProxy = 01EDBBCCB716B69659ACC194B24B2DA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F73A7CF8C7650744ADB7AED524B9F87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
-				PRODUCT_MODULE_NAME = CTMediator;
-				PRODUCT_NAME = CTMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		281B11A30CA39333571B64DD57FBFE26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B33948F82C902514D80CE6689FA5251 /* Pods-LoginServiceInterface_Tests.release.xcconfig */;
@@ -606,42 +571,9 @@
 			};
 			name = Release;
 		};
-		42950EA84D41C3270830C5D317E92A72 /* Debug */ = {
+		4C906EF93B43808E837DE34C65651D56 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1788CCD20A6F654800A9DCF5A040C1D /* Pods-LoginServiceInterface_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LoginServiceInterface_Example/Pods-LoginServiceInterface_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoginServiceInterface_Example/Pods-LoginServiceInterface_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		47E79183BC5AD117D9BCEFEFB92086BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4DD898BD893F7DEB7C7FE63847FCF91 /* LoginServiceInterface.xcconfig */;
+			baseConfigurationReference = 9AEC12A32DF190F8DB41F830D4E76C18 /* KLServer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -652,14 +584,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LoginServiceInterface/LoginServiceInterface-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LoginServiceInterface/LoginServiceInterface-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/KLServer/KLServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLServer/KLServer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LoginServiceInterface/LoginServiceInterface.modulemap";
-				PRODUCT_MODULE_NAME = LoginServiceInterface;
-				PRODUCT_NAME = LoginServiceInterface;
+				MODULEMAP_FILE = "Target Support Files/KLServer/KLServer.modulemap";
+				PRODUCT_MODULE_NAME = KLServer;
+				PRODUCT_NAME = KLServer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -671,41 +603,7 @@
 			};
 			name = Release;
 		};
-		4DA98BE94C3C0FA1732CCECDC6FB09C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFC07458DF782C92935D9A104468EEB5 /* Pods-LoginServiceInterface_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LoginServiceInterface_Example/Pods-LoginServiceInterface_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoginServiceInterface_Example/Pods-LoginServiceInterface_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		53CE5B8554AFAEE19EB8DB28C3F85975 /* Debug */ = {
+		75FA176B74F6C2D480487652F781C683 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4DD898BD893F7DEB7C7FE63847FCF91 /* LoginServiceInterface.xcconfig */;
 			buildSettings = {
@@ -893,9 +791,43 @@
 			};
 			name = Debug;
 		};
-		A617BD67FF0669DBCFAA24DC18016AB8 /* Debug */ = {
+		AAD4000F078A029368EA906A339355DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */;
+			baseConfigurationReference = CFC07458DF782C92935D9A104468EEB5 /* Pods-LoginServiceInterface_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginServiceInterface_Example/Pods-LoginServiceInterface_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginServiceInterface_Example/Pods-LoginServiceInterface_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD66E18E3718C2CDA6D294E41BBBD6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4DD898BD893F7DEB7C7FE63847FCF91 /* LoginServiceInterface.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -906,14 +838,79 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LoginServiceInterface/LoginServiceInterface-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoginServiceInterface/LoginServiceInterface-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoginServiceInterface/LoginServiceInterface.modulemap";
+				PRODUCT_MODULE_NAME = LoginServiceInterface;
+				PRODUCT_NAME = LoginServiceInterface;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA237250A0073A5B5B05BD632FDEB8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1788CCD20A6F654800A9DCF5A040C1D /* Pods-LoginServiceInterface_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginServiceInterface_Example/Pods-LoginServiceInterface_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginServiceInterface_Example/Pods-LoginServiceInterface_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6E2782F255B781F6D97FDCAC1E30856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AEC12A32DF190F8DB41F830D4E76C18 /* KLServer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KLServer/KLServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLServer/KLServer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
-				PRODUCT_MODULE_NAME = CTMediator;
-				PRODUCT_NAME = CTMediator;
+				MODULEMAP_FILE = "Target Support Files/KLServer/KLServer.modulemap";
+				PRODUCT_MODULE_NAME = KLServer;
+				PRODUCT_NAME = KLServer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -927,11 +924,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3369B102FC665E0387F7D83687AA5301 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+		3360B32B068EDCA8ADD70C9CF41F86BC /* Build configuration list for PBXNativeTarget "LoginServiceInterface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A617BD67FF0669DBCFAA24DC18016AB8 /* Debug */,
-				1F73A7CF8C7650744ADB7AED524B9F87 /* Release */,
+				75FA176B74F6C2D480487652F781C683 /* Debug */,
+				AD66E18E3718C2CDA6D294E41BBBD6CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -945,11 +942,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		571E86649C161D5116D132AF6609F002 /* Build configuration list for PBXNativeTarget "Pods-LoginServiceInterface_Example" */ = {
+		6B405E5F292FA6E19AE6BEFD8C6BBAD2 /* Build configuration list for PBXNativeTarget "Pods-LoginServiceInterface_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42950EA84D41C3270830C5D317E92A72 /* Debug */,
-				4DA98BE94C3C0FA1732CCECDC6FB09C5 /* Release */,
+				BA237250A0073A5B5B05BD632FDEB8B2 /* Debug */,
+				AAD4000F078A029368EA906A339355DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -963,11 +960,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB3D447AB78A6E958EFB633447E276A3 /* Build configuration list for PBXNativeTarget "LoginServiceInterface" */ = {
+		B5E07C9E292BBF173FEF4D59B1704CE8 /* Build configuration list for PBXNativeTarget "KLServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53CE5B8554AFAEE19EB8DB28C3F85975 /* Debug */,
-				47E79183BC5AD117D9BCEFEFB92086BE /* Release */,
+				E6E2782F255B781F6D97FDCAC1E30856 /* Debug */,
+				4C906EF93B43808E837DE34C65651D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "CTMediator.h"
+#import "KLServer.h"
 
-FOUNDATION_EXPORT double CTMediatorVersionNumber;
-FOUNDATION_EXPORT const unsigned char CTMediatorVersionString[];
+FOUNDATION_EXPORT double KLServerVersionNumber;
+FOUNDATION_EXPORT const unsigned char KLServerVersionString[];
 

@@ -268,12 +268,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LoginServiceInterface_Example/Pods-LoginServiceInterface_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/KLServer/KLServer.framework",
 				"${BUILT_PRODUCTS_DIR}/LoginServiceInterface/LoginServiceInterface.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KLServer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoginServiceInterface.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

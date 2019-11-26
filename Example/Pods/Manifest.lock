@@ -1,23 +1,23 @@
 PODS:
-  - CTMediator (25)
+  - KLServer (1.0.0)
   - LoginServiceInterface (0.0.1):
-    - CTMediator
+    - KLServer
 
 DEPENDENCIES:
   - LoginServiceInterface (from `../`)
 
 SPEC REPOS:
   trunk:
-    - CTMediator
+    - KLServer
 
 EXTERNAL SOURCES:
   LoginServiceInterface:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
-  LoginServiceInterface: 789d50291c8457aa3635d902efa62ac3dc9c383b
+  KLServer: b37b4d567aa189afe1284ed316b4419f2029221e
+  LoginServiceInterface: c93b38882a88c11c0745ade477f84d24feea0809
 
 PODFILE CHECKSUM: 6dc2f0376e5adb372ca675b575a638c437578e9e
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4
